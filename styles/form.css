@@ -1,0 +1,39 @@
+form{
+  margin-top: 1rem;
+}
+
+fieldset{
+  border: none;
+}
+
+legend{
+  font: var(--text-title);
+}
+
+.input-area{
+  margin-top: 2.75rem;
+  display: flex;
+  gap: 1rem;
+
+  & input{
+    font: var(--text-placeholder);
+    border: solid 0.125rem var(--border-primary);
+    border-radius: 0.75rem;
+    padding: 0.69rem 1.125rem;
+    flex-grow: 1;
+  }
+
+  & button{
+    font: var(--text-label);
+    color: var(--always-white);
+    background-color: var(--color-brand);
+    border: none;
+    border-radius: 0.75rem;
+    padding: .75rem 1.5rem;
+    cursor: pointer;
+
+    &:hover{
+      background-color: var(--color-brand-hover);
+    }
+  }
+}

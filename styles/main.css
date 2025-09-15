@@ -1,0 +1,10 @@
+main {
+  max-width: 39.19rem;
+  margin: 3.875rem auto 0;
+}
+
+.back a {
+  text-decoration: none;
+  font: var(--text-link);
+  color: var(--color-brand);
+}

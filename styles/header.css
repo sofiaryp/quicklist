@@ -1,0 +1,18 @@
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5625rem;
+  align-items: center;
+  gap: 0.44rem;
+}
+
+img{
+  width: 30.51px;
+  height: 23.33px;
+  
+}
+
+.logo-title{
+  font: var(--text-logo);
+  color: var(--content-secondary);
+} 
