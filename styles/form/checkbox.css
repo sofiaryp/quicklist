@@ -23,6 +23,7 @@
     all: unset;
     position: absolute;
     inset: 0;
+    
   }
 
   .checkbox-image{
@@ -52,3 +53,6 @@ label{
 
 }
 
+.trash{
+  z-index: 1;
+}
