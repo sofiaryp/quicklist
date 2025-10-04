@@ -1,27 +1,26 @@
-form{
-  margin-top: 1rem;
-}
-
-fieldset{
-  border: none;
-}
-
-legend{
-  font: var(--text-title);
-}
-
 .input-area{
   margin-top: 2.75rem;
   display: flex;
   gap: 1rem;
+  margin-bottom: 2.5rem;
 
   & input{
     font: var(--text-placeholder);
-    border: solid 0.125rem var(--border-primary);
+    outline: solid 0.125rem var(--border-primary);
     border-radius: 0.75rem;
     padding: 0.69rem 1.125rem;
     flex-grow: 1;
+    border: none;
+
+    &:hover{
+      outline: solid 0.125rem var(--border-hover);
+    }
+    &:focus{
+      outline: solid 0.125rem var(--color-brand);
+    }
   }
+
+
 
   & button{
     font: var(--text-label);

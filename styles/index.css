@@ -2,3 +2,7 @@
 @import url(global.css);
 @import url(main.css);
 @import url(form.css);
+@import url(form/form.css);
+@import url(form/input.css);
+@import url(form/checkbox.css);
+@import url(form/remove-items.css);
